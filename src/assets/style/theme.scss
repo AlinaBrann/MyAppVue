@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+$global-font-family: 'Poiret One', cursive;
+
+@import "uikit/src/scss/variables-theme.scss";
+@import "uikit/src/scss/mixins-theme.scss";
+@import "uikit/src/scss/uikit-theme.scss";
+@import "uikit/src/scss/uikit-theme.scss";
+
+
+body {
+    color: #2c3e50;
+}
+
+h1, h2, legend {
+    font-family: 'Bad Script';
+}
+.avatar {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    &._small {
+        width: 45px;
+        height: 45px;
+    }
+    &.-placeholder {
+        width: 80px;
+        height: 80px;
+        &._small {
+            width: 45px;
+            height: 45px;
+        }
+    }
+}
